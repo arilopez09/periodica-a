@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla Periodica</title>
+</head>
+<body>
+
+<script>
+function ver(nombre, numero, masa, tipo){
+ alert("Elemento: " + nombre + "\nNumero: " + numero + "\nMasa: " + masa + "\nTipo: " + tipo);
+}
+</script>
+</head>
+<body bgcolor="white" text="black">
+<center>
+
+<h1>Tabla Periodica de los Elementos</h1>
+
+
+<table border="1" cellpadding="5" cellspacing="1">
+<tr>
+<td bgcolor="#FF8C42">Metales Alcalinos</td>
+<td bgcolor="#6ABF69">Metaloides</td>
+</tr>
+<tr>
+<td bgcolor="#FFAC81">Alcalinoterreos</td>
+<td bgcolor="#C3AED6">No Metales</td>
+</tr>
+<tr>
+<td bgcolor="#FFD23F">Otros Metales</td>
+<td bgcolor="#A86BC2">Halogenos</td>
+</tr>
+<tr>
+<td bgcolor="#A8D5BA">Metales de Transicion</td>
+<td bgcolor="#7DD3D8">Gases Nobles</td>
+</tr>
+<tr>
+<td bgcolor="#E94F37">Lantanidos</td>
+<td bgcolor="#FF5C8D">Actinidos</td>
+</tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="4" cellspacing="1">
+<tr>
+<td bgcolor="#C3AED6" onclick="ver('Hidrogeno','1','1.0079','No Metales')" align="center">H<br><font size=1>1</font></td>
+<td colspan="16"></td>
+<td bgcolor="#7DD3D8" onclick="ver('Helio','2','4.002','Gases Nobles')" align="center">He<br><font size=1>2</font></td>
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Litio','3','6.94','Alcalinos')" align="center">Li<br><font size=1>3</font></td>
+<td bgcolor="#FFAC81" onclick="ver('Berilio','4','9.01','Alcalinoterreos')" align="center">Be<br><font size=1>4</font></td>
+<td colspan="10"></td>
+<td bgcolor="#6ABF69" onclick="ver('Boro','5','10.81','Metaloides')" align="center">B<br><font size=1>5</font></td>
+<td bgcolor="#C3AED6" onclick="ver('Carbono','6','12.01','No Metales')" align="center">C<br><font size=1>6</font></td>
+<td bgcolor="#C3AED6" onclick="ver('Nitrogeno','7','14.00','No Metales')" align="center">N<br><font size=1>7</font></td>
+<td bgcolor="#C3AED6" onclick="ver('Oxigeno','8','15.99','No Metales')" align="center">O<br><font size=1>8</font></td>
+<td bgcolor="#A86BC2" onclick="ver('Fluor','9','18.99','Halogenos')" align="center">F<br><font size=1>9</font></td>
+<td bgcolor="#7DD3D8" onclick="ver('Neon','10','20.17','Gases Nobles')" align="center">Ne<br><font size=1>10</font></td>
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Sodio','11','22.99','Alcalinos')" align="center">Na<br><font size=1>11</font></td>
+<td bgcolor="#FFAC81" onclick="ver('Magnesio','12','24.30','Alcalinoterreos')" align="center">Mg<br><font size=1>12</font></td>
+<td colspan="10"></td>
+<td bgcolor="#FFD23F" onclick="ver('Aluminio','13','26.98','Otros Metales')" align="center">Al<br><font size=1>13</font></td>
+<td bgcolor="#6ABF69" onclick="ver('Silicio','14','28.08','Metaloides')" align="center">Si<br><font size=1>14</font></td>
+<td bgcolor="#C3AED6" onclick="ver('Fosforo','15','30.97','No Metales')" align="center">P<br><font size=1>15</font></td>
+<td bgcolor="#C3AED6" onclick="ver('Azufre','16','32.06','No Metales')" align="center">S<br><font size=1>16</font></td>
+<td bgcolor="#A86BC2" onclick="ver('Cloro','17','35.45','Halogenos')" align="center">Cl<br><font size=1>17</font></td>
+<td bgcolor="#7DD3D8" onclick="ver('Argon','18','39.94','Gases Nobles')" align="center">Ar<br><font size=1>18</font></td>
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Potasio','19','39.09','Alcalinos')" align="center">K<br>19</td>
+<td bgcolor="#FFAC81" onclick="ver('Calcio','20','40.07','Alcalinoterreos')" align="center">Ca<br>20</td>
+<td bgcolor="#A8D5BA" onclick="ver('Escandio','21','44.95','Transicion')" align="center">Sc<br>21</td>
+<td bgcolor="#A8D5BA" onclick="ver('Titanio','22','47.86','Transicion')" align="center">Ti<br>22</td>
+<td bgcolor="#A8D5BA" onclick="ver('Vanadio','23','50.94','Transicion')" align="center">V<br>23</td>
+<td bgcolor="#A8D5BA" onclick="ver('Cromo','24','51.99','Transicion')" align="center">Cr<br>24</td>
+<td bgcolor="#A8D5BA" onclick="ver('Manganeso','25','54.93','Transicion')" align="center">Mn<br>25</td>
+<td bgcolor="#A8D5BA" onclick="ver('Hierro','26','55.84','Transicion')" align="center">Fe<br>26</td>
+<td bgcolor="#A8D5BA" onclick="ver('Cobalto','27','58.93','Transicion')" align="center">Co<br>27</td>
+<td bgcolor="#A8D5BA" onclick="ver('Niquel','28','58.69','Transicion')" align="center">Ni<br>28</td>
+<td bgcolor="#A8D5BA" onclick="ver('Cobre','29','63.54','Transicion')" align="center">Cu<br>29</td>
+<td bgcolor="#A8D5BA" onclick="ver('Zinc','30','65.38','Transicion')" align="center">Zn<br>30</td>
+<td bgcolor="#FFD23F" onclick="ver('Galio','31','69.72','Otros Metales')" align="center">Ga<br>31</td>
+<td bgcolor="#6ABF69" onclick="ver('Germanio','32','72.63','Metaloides')" align="center">Ge<br>32</td>
+<td bgcolor="#6ABF69" onclick="ver('Arsenico','33','74.92','Metaloides')" align="center">As<br>33</td>
+<td bgcolor="#C3AED6" onclick="ver('Selenio','34','78.96','No Metales')" align="center">Se<br>34</td>
+<td bgcolor="#A86BC2" onclick="ver('Bromo','35','79.90','Halogenos')" align="center">Br<br>35</td>
+<td bgcolor="#7DD3D8" onclick="ver('Kripton','36','83.79','Gases Nobles')" align="center">Kr<br>36</td>
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Rubidio','37','85.46','Alcalinos')" align="center">Rb<br>37</td>
+<td bgcolor="#FFAC81" onclick="ver('Estroncio','38','87.62','Alcalinoterreos')" align="center">Sr<br>38</td>
+<td bgcolor="#A8D5BA" onclick="ver('Itrio','39','88.90','Transicion')" align="center">Y<br>39</td>
+<td bgcolor="#A8D5BA" onclick="ver('Circonio','40','91.22','Transicion')" align="center">Zr<br>40</td>
+<td bgcolor="#A8D5BA" onclick="ver('Niobio','41','92.90','Transicion')" align="center">Nb<br>41</td>
+<td bgcolor="#A8D5BA" onclick="ver('Molibdeno','42','95.95','Transicion')" align="center">Mo<br>42</td>
+<td bgcolor="#A8D5BA" onclick="ver('Tecnecio','43','98','Transicion')" align="center">Tc<br>43</td>
+<td bgcolor="#A8D5BA" onclick="ver('Rutenio','44','101.07','Transicion')" align="center">Ru<br>44</td>
+<td bgcolor="#A8D5BA" onclick="ver('Rodio','45','102.9','Transicion')" align="center">Rh<br>45</td>
+<td bgcolor="#A8D5BA" onclick="ver('Paladio','46','106.4','Transicion')" align="center">Pd<br>46</td>
+<td bgcolor="#A8D5BA" onclick="ver('Plata','47','107.8','Transicion')" align="center">Ag<br>47</td>
+<td bgcolor="#A8D5BA" onclick="ver('Cadmio','48','112.4','Transicion')" align="center">Cd<br>48</td>
+<td bgcolor="#FFD23F" onclick="ver('Indio','49','114.8','Otros Metales')" align="center">In<br>49</td>
+<td bgcolor="#FFD23F" onclick="ver('Estaño','50','118.7','Otros Metales')" align="center">Sn<br>50</td>
+<td bgcolor="#6ABF69" onclick="ver('Antimonio','51','121.7','Metaloides')" align="center">Sb<br>51</td>
+<td bgcolor="#6ABF69" onclick="ver('Telurio','52','127.6','Metaloides')" align="center">Te<br>52</td>
+<td bgcolor="#A86BC2" onclick="ver('Yodo','53','126.9','Halogenos')" align="center">I<br>53</td>
+<td bgcolor="#7DD3D8" onclick="ver('Xenon','54','131.2','Gases Nobles')" align="center">Xe<br>54</td>
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Cesio','55','132.9','Alcalinos')" align="center">Cs<br>55</td>
+<td bgcolor="#FFAC81" onclick="ver('Bario','56','137.3','Alcalinoterreos')" align="center">Ba<br>56</td>
+<td bgcolor="#E94F37" align="center">71<br>Lu</td>
+<td bgcolor="#A8D5BA" onclick="ver('Hafnio','72','178.4','Transicion')" align="center">Hf<br>72</td>
+<td bgcolor="#A8D5BA" onclick="ver('Tantalo','73','180.9','Transicion')" align="center">Ta<br>73</td>
+<td bgcolor="#A8D5BA" onclick="ver('Wolframio','74','183.8','Transicion')" align="center">W<br>74</td>
+<td bgcolor="#A8D5BA" onclick="ver('Renio','75','186.2','Transicion')" align="center">Re<br>75</td>
+<td bgcolor="#A8D5BA" onclick="ver('Osmio','76','190.2','Transicion')" align="center">Os<br>76</td>
+<td bgcolor="#A8D5BA" onclick="ver('Iridio','77','192.2','Transicion')" align="center">Ir<br>77</td>
+<td bgcolor="#A8D5BA" onclick="ver('Platino','78','195.0','Transicion')" align="center">Pt<br>78</td>
+<td bgcolor="#A8D5BA" onclick="ver('Oro','79','196.9','Transicion')" align="center">Au<br>79</td>
+<td bgcolor="#A8D5BA" onclick="ver('Mercurio','80','200.5','Transicion')" align="center">Hg<br>80</td>
+<td bgcolor="#FFD23F" onclick="ver('Talio','81','204.3','Otros Metales')" align="center">Tl<br>81</td>
+<td bgcolor="#FFD23F" onclick="ver('Plomo','82','207.2','Otros Metales')" align="center">Pb<br>82</td>
+<td bgcolor="#FFD23F" onclick="ver('Bismuto','83','208.9','Otros Metales')" align="center">Bi<br>83</td>
+<td bgcolor="#6ABF69" onclick="ver('Polonio','84','209','Metaloides')" align="center">Po<br>84</td>
+<td bgcolor="#A86BC2" onclick="ver('Astato','85','210','Halogenos')" align="center">At<br>85</td>
+<td bgcolor="#7DD3D8" onclick="ver('Radon','86','222','Gases Nobles')" align="center">Rn<br>86</td>
+
+</tr>
+<tr>
+<td bgcolor="#FF8C42" onclick="ver('Francio','87','223','Alcalinos')" align="center">Fr<br>87</td>
+<td bgcolor="#FFAC81" onclick="ver('Radio','88','226','Alcalinoterreos')" align="center">Ra<br>88</td>
+<td bgcolor="#FF5C8D" align="center">103<br>Lr</td>
+<td bgcolor="#A8D5BA" onclick="ver('Rutherfordio','104','261','Transicion')" align="center">Rf<br>104</td>
+<td bgcolor="#A8D5BA" onclick="ver('Dubnio','105','262','Transicion')" align="center">Db<br>105</td>
+<td bgcolor="#A8D5BA" onclick="ver('Seaborgio','106','266','Transicion')" align="center">Sg<br>106</td>
+<td bgcolor="#A8D5BA" onclick="ver('Bohrio','107','264','Transicion')" align="center">Bh<br>107</td>
+<td bgcolor="#A8D5BA" onclick="ver('Hasio','108','277','Transicion')" align="center">Hs<br>108</td>
+<td bgcolor="#A8D5BA" onclick="ver('Meitnerio','109','268','Transicion')" align="center">Mt<br>109</td>
+<td bgcolor="#A8D5BA" onclick="ver('Darmstadtio','110','271','Transicion')" align="center">Ds<br>110</td>
+<td bgcolor="#A8D5BA" onclick="ver('Roentgenio','111','272','Transicion')" align="center">Rg<br>111</td>
+<td bgcolor="#A8D5BA" onclick="ver('Copernicio','112','285','Transicion')" align="center">Cn<br>112</td>
+<td bgcolor="#FFD23F" onclick="ver('Nihonio','113','284','Otros Metales')" align="center">Nh<br>113</td>
+<td bgcolor="#FFD23F" onclick="ver('Flerovio','114','289','Otros Metales')" align="center">Fl<br>114</td>
+<td bgcolor="#FFD23F" onclick="ver('Moscovio','115','288','Otros Metales')" align="center">Mc<br>115</td>
+<td bgcolor="#FFD23F" onclick="ver('Livermorio','116','293','Otros Metales')" align="center">Lv<br>116</td>
+<td bgcolor="#A86BC2" onclick="ver('Teneso','117','294','Halogenos')" align="center">Ts<br>117</td>
+<td bgcolor="#7DD3D8" onclick="ver('Oganeson','118','294','Gases Nobles')" align="center">Og<br>118</td>
+</tr>
+</table>
+
+<br><br>
+
+<table border="1" cellpadding="4" cellspacing="1">
+<tr>
+<td bgcolor="#E94F37" onclick="ver('Lantano','57','138.9','Lantanidos')" align="center">La<br>57</td>
+<td bgcolor="#E94F37" onclick="ver('Cerio','58','140.1','Lantanidos')" align="center">Ce<br>58</td>
+<td bgcolor="#E94F37" onclick="ver('Praseodimio','59','140.9','Lantanidos')" align="center">Pr<br>59</td>
+<td bgcolor="#E94F37" onclick="ver('Neodimio','60','144.2','Lantanidos')" align="center">Nd<br>60</td>
+<td bgcolor="#E94F37" onclick="ver('Prometio','61','145','Lantanidos')" align="center">Pm<br>61</td>
+<td bgcolor="#E94F37" onclick="ver('Samario','62','150.3','Lantanidos')" align="center">Sm<br>62</td>
+<td bgcolor="#E94F37" onclick="ver('Europio','63','151.9','Lantanidos')" align="center">Eu<br>63</td>
+<td bgcolor="#E94F37" onclick="ver('Gadolinio','64','157.2','Lantanidos')" align="center">Gd<br>64</td>
+<td bgcolor="#E94F37" onclick="ver('Terbio','65','158.9','Lantanidos')" align="center">Tb<br>65</td>
+<td bgcolor="#E94F37" onclick="ver('Disprosio','66','162.5','Lantanidos')" align="center">Dy<br>66</td>
+<td bgcolor="#E94F37" onclick="ver('Holmio','67','164.9','Lantanidos')" align="center">Ho<br>67</td>
+<td bgcolor="#E94F37" onclick="ver('Erbio','68','167.2','Lantanidos')" align="center">Er<br>68</td>
+<td bgcolor="#E94F37" onclick="ver('Tulio','69','168.9','Lantanidos')" align="center">Tm<br>69</td>
+<td bgcolor="#E94F37" onclick="ver('Iterbio','70','173.0','Lantanidos')" align="center">Yb<br>70</td>
+<td bgcolor="#E94F37" onclick="ver('Lutecio','71','174.9','Lantanidos')" align="center">Lu<br>71</td>
+</tr>
+<tr>
+<td bgcolor="#FF5C8D" onclick="ver('Actinio','89','227','Actinidos')" align="center">Ac<br>89</td>
+<td bgcolor="#FF5C8D" onclick="ver('Torio','90','232.0','Actinidos')" align="center">Th<br>90</td>
+<td bgcolor="#FF5C8D" onclick="ver('Protactinio','91','231.0','Actinidos')" align="center">Pa<br>91</td>
+<td bgcolor="#FF5C8D" onclick="ver('Uranio','92','238.0','Actinidos')" align="center">U<br>92</td>
+<td bgcolor="#FF5C8D" onclick="ver('Neptunio','93','237','Actinidos')" align="center">Np<br>93</td>
+<td bgcolor="#FF5C8D" onclick="ver('Plutonio','94','244','Actinidos')" align="center">Pu<br>94</td>
+<td bgcolor="#FF5C8D" onclick="ver('Americio','95','243','Actinidos')" align="center">Am<br>95</td>
+<td bgcolor="#FF5C8D" onclick="ver('Curio','96','247','Actinidos')" align="center">Cm<br>96</td>
+<td bgcolor="#FF5C8D" onclick="ver('Berkelio','97','247','Actinidos')" align="center">Bk<br>97</td>
+<td bgcolor="#FF5C8D" onclick="ver('Californio','98','251','Actinidos')" align="center">Cf<br>98</td>
+<td bgcolor="#FF5C8D" onclick="ver('Einstenio','99','252','Actinidos')" align="center">Es<br>99</td>
+<td bgcolor="#FF5C8D" onclick="ver('Fermio','100','257','Actinidos')" align="center">Fm<br>100</td>
+<td bgcolor="#FF5C8D" onclick="ver('Mendelevio','101','258','Actinidos')" align="center">Md<br>101</td>
+<td bgcolor="#FF5C8D" onclick="ver('Nobelio','102','259','Actinidos')" align="center">No<br>102</td>
+<td bgcolor="#FF5C8D" onclick="ver('Laurencio','103','262','Actinidos')" align="center">Lr<br>103</td>
+</tr>
+</table>
+
+</center>
+</body>
+</html>
